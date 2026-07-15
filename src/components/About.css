@@ -1,0 +1,37 @@
+.about {
+  background-color: #76abae;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 50px 24px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 2em;
+  margin: 0 0 8px;
+  color: #303841;
+}
+
+.about h3 {
+  font-size: 1.1em;
+  color: #303841;
+  font-weight: normal;
+  margin: 0 0 16px;
+}
+
+.about p {
+  font-size: 1em;
+  margin: 4px 0;
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding: 30px 16px;
+  }
+
+  .about h1 {
+    font-size: 1.6em;
+  }
+}

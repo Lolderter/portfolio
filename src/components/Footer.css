@@ -1,0 +1,33 @@
+.footer {
+  background-color: #303841;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-text {
+  margin: 0 0 12px;
+  font-size: 0.9em;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(1) brightness(2);
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+}
+
+.footer-icon:hover {
+  transform: translateY(-3px);
+  filter: invert(56%) sepia(84%) saturate(1934%) hue-rotate(342deg)
+    brightness(101%) contrast(101%);
+}
