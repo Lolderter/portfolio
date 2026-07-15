@@ -1,10 +1,10 @@
 import "./Navbar.css";
-import logo from "/src/assets/logo.svg";
-import homeIcon from "/src/assets/home.svg";
-import aboutIcon from "/src/assets/about.png";
-import skillsIcon from "/src/assets/skills.png";
-import projectsIcon from "/src/assets/projects.png";
-import contactIcon from "/src/assets/contact.png";
+import logo from "../assets/logo.svg";
+import homeIcon from "../assets/home.png";
+import aboutIcon from "../assets/about.png";
+import skillsIcon from "../assets/skills.png";
+import projectsIcon from "../assets/projects.png";
+import contactIcon from "../assets/contact.png";
 
 function Navbar() {
   return (
@@ -20,7 +20,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#top">
+          <a href="#about">
             About
             <img src={aboutIcon} alt="" className="nav-icon" />
           </a>
