@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import logo from "../assets/logo.svg";
-import homeIcon from "../assets/home.png";
+import homeIcon from "../assets/home.svg";
 import aboutIcon from "../assets/about.png";
 import skillsIcon from "../assets/skills.png";
 import projectsIcon from "../assets/projects.png";
