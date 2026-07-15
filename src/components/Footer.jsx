@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://t.me/lolderter" target="_blank">
           <img src={telegramIcon} alt="Telegram" className="footer-icon" />
         </a>
-        <a href="mailto:namtimur813@gmail.com">
+        <a href="mailto:namtimur813@gmail.com" target="_blank">
           <img src={emailIcon} alt="Email" className="footer-icon" />
         </a>
       </div>
