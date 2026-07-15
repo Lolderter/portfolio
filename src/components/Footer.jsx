@@ -22,7 +22,10 @@ function Footer() {
         >
           <img src={telegramIcon} alt="Telegram" className="footer-icon" />
         </a>
-        <a href="mailto:namtimur813@gmail.com">
+        <a
+          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=namtimur813@gmail.com"
+          target="_blank"
+        >
           <img src={emailIcon} alt="Email" className="footer-icon" />
         </a>
       </div>
