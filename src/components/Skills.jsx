@@ -1,7 +1,7 @@
 import "./Skills.css";
 
 function Skills() {
-  const skills = ["HTML", "CSS", "JavaScript", "React", "Git"];
+  const skills = ["HTML", "CSS", "JavaScript", "React", "Git", "Php"];
 
   return (
     <section className="skills" id="skills">

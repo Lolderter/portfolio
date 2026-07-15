@@ -15,17 +15,17 @@ function App() {
     {
       title: "E-shop",
       description: "Online Shopping Website",
-      image: "/src/assets/shop.png",
+      image: "../src/assets/shop.png",
     },
     {
       title: "Portfolio",
       description: "Personal Website",
-      image: "/src/assets/portfolio.png",
+      image: "../src/assets/portfolio.png",
     },
     {
       title: "React native Page",
       description: "React  native Page",
-      image: "/src/assets/native.png",
+      image: "../src/assets/native.png",
     },
   ];
 
