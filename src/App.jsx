@@ -8,6 +8,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
 
+import shopImg from "./assets/shop.png";
+import portfolioImg from "./assets/portfolio.png";
+import nativeImg from "./assets/native.png";
+
 function App() {
   const [showContact, setShowContact] = useState(true);
 
@@ -15,17 +19,17 @@ function App() {
     {
       title: "E-shop",
       description: "Online Shopping Website",
-      image: "../src/assets/shop.png",
+      image: shopImg,
     },
     {
       title: "Portfolio",
       description: "Personal Website",
-      image: "../src/assets/portfolio.png",
+      image: portfolioImg,
     },
     {
       title: "React native Page",
-      description: "React  native Page",
-      image: "../src/assets/native.png",
+      description: "React native Page",
+      image: nativeImg,
     },
   ];
 
@@ -60,5 +64,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
